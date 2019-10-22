@@ -16,7 +16,7 @@
         "sleep 15",
         "sudo rm packer",
         "sudo rm packer_1.4.4_linux_amd64.zip",
-        "sudo echo 'Packer has been unzipped to /usr/local/bin. Please navigate there to execute any Packer commands. Please navigate to https://blogs.oracle$
+        "sudo echo 'Packer has been unzipped to /usr/local/bin. Please navigate there to execute any Packer commands. Please navigate to https://blogs.oracle.com/developers/build-oracle-cloud-infrastructure-custom-images-with-packer-on-oracle-developer-cloud for OCI build.jason examples' >> /home/ubuntu/README.txt"
       ]
     }
   ]
