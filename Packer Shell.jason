@@ -1,2 +1,23 @@
+],
+ "provisioners": [
+    {
+      "type": "shell",
+      "inline": [
+        "sleep 30",
+        "sudo apt-get -y update",
+        "sleep 30",
+        "sudo apt-get install -y unzip",
+        "sudo apt-get install -y wget",
+        "sudo wget https://releases.hashicorp.com/packer/1.4.4/packer_1.4.4_linux_amd64.zip",
+        "sleep 60",
+        "sudo unzip packer_1.4.4_linux_amd64.zip",
+        "sleep 30",
+        "sudo cp packer /usr/local/bin",
+        "sleep 15",
+        "sudo rm packer",
+        "sudo rm packer_1.4.4_linux_amd64.zip",
+        "sudo echo 'Packer has been unzipped to /usr/local/bin. Please navigate there to execute any Packer commands. Please navigate to https://blogs.oracle$
+      ]
+    }
   ]
 }
